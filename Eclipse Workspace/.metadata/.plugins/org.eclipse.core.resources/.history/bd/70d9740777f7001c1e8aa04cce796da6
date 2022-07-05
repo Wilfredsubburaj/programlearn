@@ -1,0 +1,22 @@
+package usingIf;
+
+import java.util.Scanner;
+
+public class usingIf{
+     public static void main(String args[]) {
+            float avg;
+            String sname;
+            Scanner in=new Scanner(System.in);
+            System.out.println("Enter the student name ");
+            sname=in.nextLine();
+            System.out.println("Enter the avg marks ");
+            avg=in.nextFloat();
+            if(avg>=40)
+            {
+              System.out.println("You are pass");
+            }
+                else
+                {  System.out.println("You are fail");
+                }
+     }
+                }

@@ -1,0 +1,45 @@
+package usingIf;
+
+import java.util.Scanner;
+
+public class usingIf{
+     public static void main(String args[]) {
+    	 String name;
+            float percent;
+            Scanner in=new Scanner(System.in);
+            System.out.println("Enter Employee name ");
+            name=in.nextLine();
+            System.out.println("Enter Rank percentage ");
+            percent=in.nextFloat();
+            if(percent>=70)
+            {
+              System.out.println("You are in High Rank");
+            }
+                else
+                {  System.out.println("You are in Medium Rank");
+                }
+            int salaryfeb,salarymar,salaryapr,totalsalary,avg,ch;
+            System.out.println("1. Total salary of the employee for 3 months");
+            System.out.println("2.Average salary");
+            System.out.println("Enter your salary : ");
+            ch=in.nextInt();
+            System.out.println("Enter the salary for 3 months: ");
+            salaryfeb=in.nextInt();
+            salarymar=in.nextInt();
+            salaryapr=in.nextInt();
+            switch (ch)
+            {
+                case 1:
+                    total=salaryfeb+salarymar+salaryapr;
+                    System.out.println("Total salary of the employee for 3 months " +total);
+                    break;
+                case 2:
+                    avg=(salaryfeb+salarymar+salaryapr)/3;
+                    System.out.println("Average of three months "+avg);
+                    break;
+                default:
+                    System.out.println("Invalid Selection");
+                    break;
+            }
+     }
+                }

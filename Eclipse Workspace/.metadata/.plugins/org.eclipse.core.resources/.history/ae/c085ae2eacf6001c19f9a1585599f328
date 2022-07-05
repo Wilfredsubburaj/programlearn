@@ -1,0 +1,7 @@
+
+public class JavaTwo {
+	public static void main(string[] args) {
+		System.out.println("HaloWorld");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.rightjoin.sample.datatype;
+import java.lang.*;
+
+class Javathree
+{
+	public static void main(String [] args)
+	{
+		String name="wil";
+		int id=7155;
+		float percent=27.27f;
+		double x=12.25;
+		char gender='M';
+		System.out.println("Name      :  "+name);
+		System.out.println("id        :  "+id);
+		System.out.println("Percent   :  "+percent);
+		System.out.println("Gender    :  "+gender);
+	}
+}

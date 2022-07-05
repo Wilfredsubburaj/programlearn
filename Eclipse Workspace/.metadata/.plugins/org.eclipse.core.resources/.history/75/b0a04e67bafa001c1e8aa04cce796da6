@@ -1,0 +1,17 @@
+package programlearn;
+
+public class oopsencaps {
+		 public static void main(String[oopsencaps a=new encaps] args); 
+		 a.setNumber("9894627733");
+		 System.out.println("phone_number"+a.getphonenumber)
+	private int phone_number;
+		public int getphonenumbeer() {
+	        return this.phone_number;
+	    }
+	   
+		public void setNumber(int num) {
+	        this.phone_number = num;
+	    }
+		
+	
+}
